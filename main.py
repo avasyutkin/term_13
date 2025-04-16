@@ -57,6 +57,7 @@ def pam5(data):
     symbols = [mapping[data[i:i + 2]] for i in range(0, len(data), 2)]
     return symbols
 
+
 def e_4b5b(input_bits):
     encoding_table = {
         "0000": "11110",
